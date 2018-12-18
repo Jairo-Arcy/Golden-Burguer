@@ -1,0 +1,1152 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../fonts/bubblegum-sans-regular.otf");
+}
+
+body {
+    margin: 0px;
+}
+
+div#mapa {
+    float: left;
+    width: 100%;
+    height: 100%;
+
+
+
+}
+
+
+nav#principal {
+    position: absolute;
+    top: -5px;
+    display: block;
+    background-color: orange;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 1px 3px rgba(44, 44, 44, 0.603);
+    float: left;
+}
+
+nav#principal ul {
+    display: none;
+    margin: 0px;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'FonteLogo';
+
+}
+
+nav#principal li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 0px 0px 20px;
+
+
+}
+
+.home {
+    margin: 9px 5px 0px 5px;
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+
+.home:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.locall {
+    float: left;
+    color: yellow;
+    text-decoration: none;
+    margin: 0;
+    font-size: 10pt;
+    padding: 0px 10px 10px 10px;
+}
+
+.locall:hover {
+    color: white;
+    color: yellow;
+
+
+}
+
+.lanches h1 {
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+    float: left;
+
+
+}
+
+.not {
+    float: left;
+    background-color: rgb(255, 136, 0);
+    width: 100%;
+    height: 80px;
+    margin-top: 25px;
+}
+
+.not h1 {
+    color: white;
+    font-family: 'FonteLogo';
+    text-align: center;
+    padding-top: 4px;
+    transition: .3s;
+}
+
+.not h1:hover {
+    color: yellow;
+}
+
+.cardapio {
+    width: 100%;
+    height: 2100px;
+    background-color: rgba(255, 72, 0, 0.876);
+    float: left;
+    margin-top: 10px;
+}
+
+.cardapio h1 {
+    color: white;
+    font-family: 'FonteLogo';
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.cardapio-ala {
+    width: 100%;
+    height: 2150px;
+    background-color: rgba(255, 72, 0, 0.876);
+    float: left;
+    margin-top: 73px;
+    margin-bottom: 0px;
+
+}
+
+.cardapio-ala p {
+    padding-top: 10px;
+    color: white;
+    padding-left: 20px;
+}
+
+.cardapio-ala p a#home {
+    color: white;
+    font-family: 'Fonte-Logo';
+}
+
+.cardapio-ala p a#cardapio {
+    color: rgb(255, 157, 0);
+    font-family: 'Fonte-Logo';
+    font-size: 20px;
+
+}
+
+.topo {
+    float: left;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 136, 0);
+    margin-top: 0px;
+}
+
+.topo h1 {
+    text-align: center;
+    font-family: 'Fonte-Logo';
+    color: white;
+    padding: 0;
+    font-weight: 300;
+    margin: 15px 0px 0px 0px;
+}
+
+.topo figure {
+
+    padding-left: 30px;
+    padding-top:10px;
+    margin-left:10px;
+    float: left;
+    width: 15%;
+    height: 55px;
+    margin: 0px 0px 0px 20px;
+}
+
+.topo figure img {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.cardapio-ala h1 {
+    color: white;
+    font-family: 'FonteLogo';
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.cardapio1 {
+    width: 45%;
+    height: 300px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 40px;
+    float: left;
+}
+
+figure.foto {
+    background-color: white;
+    width: 95%;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+
+}
+
+figure.foto img {
+    width: 100%;
+    height: 100%;
+    float: left;
+    transition: .2s;
+    padding-left: 6px;
+    padding-bottom: 10px;
+
+
+}
+
+figure#ultimo-lanche {
+    margin-left: 170px;
+    margin-bottom: 20px;
+
+
+
+}
+
+figure.foto figcaption {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    padding-left: 0px;
+    color: rgba(255, 255, 255, 0.876);
+    font-family: 'FonteLogo';
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+}
+
+#check {
+    display: none;
+
+}
+
+#icone {
+    cursor: pointer;
+    position: absolute;
+    z-index: 99999;
+
+}
+
+.barra {
+    background-color: #333;
+    height: 1000%;
+    width: 50%;
+    position: absolute;
+    transition: all .2s linear;
+    left: -400px;
+    z-index: 88888;
+    top: 0px;
+    float: left;
+
+}
+
+nav#mobile {
+    width: 100%;
+    position: absolute;
+    top: 90px;
+    float: left;
+}
+
+nav#mobile a {
+    text-decoration: none;
+}
+
+.link {
+    background-color: #494950;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    transition: all .1s linear;
+    color: #f4f4f9;
+    border-bottom: 3px solid #222;
+    opacity: 0;
+    margin-top: 200px;
+
+}
+
+.link:hover {
+    background-color: #050542;
+
+}
+
+#check:checked~.barra {
+    transform: translateX(400px);
+
+
+}
+
+#check:checked~.barra nav a .link {
+    opacity: 1;
+    margin-top: 0;
+    transition-delay: .2s;
+    height: 100%;
+
+
+}
+
+nav#principal label#icone img {
+    padding: 23px 0px 0px 5px;
+
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 600px;
+
+
+}
+
+.carousel {
+    width: 100%;
+    height: 600px;
+    float: left;
+    padding-top: 50px;
+    position: absolute;
+    top: 15px;
+
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+#demo {
+    width: 100%;
+    height: 350px;
+
+}
+
+section.barra {
+    width: 100%;
+    height: 100px;
+    float: left;
+    background-color: yellow;
+}
+
+footer#rodape {
+    width: 100%;
+    height: 470px;
+    float: left;
+}
+
+footer#rodape img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+figure#rodaimg {
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+figure#rodaimg figcaption {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+
+.info {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.rede {
+    position: absolute;
+    top: 470px;
+    left: 0px;
+    color: white;
+    margin-left: 0px;
+    font-size: 12px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 136, 0);
+    float: left;
+    padding-left: 5px;
+}
+
+.rede p {
+    text-align: center;
+
+}
+
+.rede a {
+    color: white;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.rede a:hover {
+    text-decoration: underline;
+    color: yellow;
+
+}
+
+.info1 {
+    float: left;
+    position: relative;
+    margin-top: 420px;
+    margin-left: 0px;
+    color: white;
+    font-size: 25px;
+}
+
+p.info1 {
+    margin: 0;
+    display: none;
+}
+
+figure#social {
+    position: relative;
+    margin-left: 130px;
+    margin-top: 330px;
+    width: 10%;
+    height: 63px;
+    float: left;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 30px;
+}
+
+figure#social img {
+    width: 100%;
+    height: 100%;
+}
+
+figure#social2 {
+    position: relative;
+    margin-top: 330px;
+    margin-left: 10px;
+    width: 10%;
+    height: 60px;
+    float: left;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 20x;
+}
+
+figure#social2 img {
+    width: 100%;
+    height: 100%;
+}
+
+figure#social3 {
+    position: relative;
+    margin-top: 330px;
+    margin-left: 10px;
+    width: 10%;
+    height: 60px;
+    float: left;
+    overflow: hidden;
+}
+
+figure#social3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.local {
+    float: left;
+    background-color: rgb(255, 136, 0);
+    width: 100%;
+    height: 150px;
+    margin-top: 75px;
+}
+
+.local h1 {
+    font-family: 'FonteLogo';
+    color: white;
+    padding-left: 20px;
+
+}
+
+.local p {
+    padding-left: 20px;
+    color: white;
+    font-size: 10pt;
+}
+
+.lanches {
+    float: left;
+    width: 100%;
+    height: 130px;
+    background-color: rgb(255, 136, 0);
+    margin-top: 75px;
+}
+
+.lanches h1 {
+    color: white;
+    font-family: 'FonteLogo';
+    margin-left: 20px;
+}
+figure#ultimo-lanche {
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+
+
+}
+
+@media (min-width:588px) {
+    .lanches {
+        float: left;
+        width: 100%;
+        height: 100px;
+        background-color: rgb(255, 136, 0);
+        margin-top: 75px;
+    }
+    
+    figure#ultimo-lanche {
+        margin-left: 170px;
+        margin-bottom: 20px;
+
+
+
+    }
+
+    iframe {
+      width: 100%;
+
+
+    }
+
+    div#mapa {
+        float: left;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+
+    figure.foto {
+        background-color: white;
+        width: 48%;
+        margin-right: 5px;
+        height: 300px;
+        margin-left: 5px;
+        margin-top: 35px;
+        position: relative;
+        overflow: hidden;
+        float: left;
+
+    }
+
+    figure.foto img {
+        width: 100%;
+        height: 100%;
+        float: left;
+        transition: .2s;
+        padding-left: 6px;
+        padding-bottom: 10px;
+
+
+    }
+
+    figure.foto figcaption {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        padding-left: 0px;
+        color: rgba(255, 255, 255, 0.876);
+        font-family: 'FonteLogo';
+        font-size: 30px;
+        background-color: rgba(0, 0, 0, 0.3);
+        box-sizing: border-box;
+    }
+
+    .cardapio {
+        width: 100%;
+        height:1100px;
+        background-color: rgba(255, 72, 0, 0.876);
+        float: left;
+        margin-top: 10px;
+    }
+
+    figure#social {
+        position: relative;
+        margin-left: 200px;
+        margin-top: 330px;
+        width: 10%;
+        height: 63px;
+        float: left;
+        overflow: hidden;
+        border: 2px solid rgba(255, 255, 255, 0);
+        border-radius: 30px;
+    }
+
+    figure#social2 {
+        position: relative;
+        margin-top: 330px;
+        margin-left: 10px;
+        width: 10%;
+        height: 60px;
+        float: left;
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0);
+        border-radius: 20x;
+    }
+
+    figure#social3 {
+        position: relative;
+        margin-top: 330px;
+        margin-left: 10px;
+        width: 10%;
+        height: 60px;
+        float: left;
+        overflow: hidden;
+    }
+
+    .rede {
+        position: absolute;
+        top: 470px;
+        left: 0px;
+        color: white;
+        margin-left: 0px;
+        font-size: 12px;
+        width: 100%;
+        height: 40px;
+        background-color: rgb(255, 136, 0);
+        float: left;
+        padding-left: 5px;
+    }
+
+    .cardapio-ala {
+        width: 100%;
+        height: 1140px;
+        background-color: rgba(255, 72, 0, 0.876);
+        float: left;
+        margin-top: 73px;
+        margin-bottom: 0px;
+
+    }
+
+
+
+
+}
+
+
+@media(min-width:652px) {
+    .locall {
+        margin-right:50%
+
+
+    }
+    .lanches {
+        float: left;
+        width: 100%;
+        height: 100px;
+        background-color: rgb(255, 136, 0);
+        margin-top: 75px;
+    }
+    .lanches h1 {
+        margin-left:90px;
+
+    }
+    
+    figure#ultimo-lanche {
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+    figure#segunda-figura {
+        margin-left:150px;
+    }
+
+    iframe {
+        width: 100%;
+
+
+    }
+
+    div#mapa {
+        float: left;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+
+    figure.foto {
+        background-color: white;
+        width: 31%;
+        margin-right: 5px;
+        height: 300px;
+        margin-left: 10px;
+        margin-top: 35px;
+        position: relative;
+        overflow: hidden;
+        float: left;
+
+    }
+
+    figure.foto img {
+        width: 100%;
+        height: 100%;
+        float: left;
+        transition: .2s;
+        padding-left: 6px;
+        padding-bottom: 10px;
+
+
+    }
+
+    figure.foto figcaption {
+
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        padding-left: 0px;
+        color: rgba(255, 255, 255, 0.876);
+        font-family: 'FonteLogo';
+        font-size: 30px;
+        background-color: rgba(0, 0, 0, 0.3);
+        box-sizing: border-box;
+    }
+
+    .cardapio {
+        width: 100%;
+        height:760px;
+        background-color: rgba(255, 72, 0, 0.876);
+        float: left;
+        margin-top: 10px;
+    }
+
+    figure#social {
+        position: relative;
+        margin-left: 250px;
+        margin-top: 330px;
+        width: 10%;
+        height: 63px;
+        float: left;
+        overflow: hidden;
+        border: 2px solid rgba(255, 255, 255, 0);
+        border-radius: 30px;
+    }
+
+    figure#social2 {
+        position: relative;
+        margin-top: 330px;
+        margin-left: 10px;
+        width: 10%;
+        height: 60px;
+        float: left;
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0);
+        border-radius: 20x;
+    }
+
+    figure#social3 {
+        position: relative;
+        margin-top: 330px;
+        margin-left: 10px;
+        width: 10%;
+        height: 60px;
+        float: left;
+        overflow: hidden;
+    }
+
+    .rede {
+        position: absolute;
+        top: 470px;
+        left: 0px;
+        color: white;
+        margin-left: 0px;
+        font-size: 12px;
+        width: 100%;
+        height: 40px;
+        background-color: rgb(255, 136, 0);
+        float: left;
+        padding-left: 5px;
+    }
+
+    .cardapio-ala {
+        width: 100%;
+        height: 800px;
+        background-color: rgba(255, 72, 0, 0.876);
+        float: left;
+        margin-top: 73px;
+        margin-bottom: 0px;
+
+    }
+
+
+
+
+}
+@media(min-width:800px) {
+    .topo figure {
+        display:none;
+    }
+    .topo h1:hover {
+        color:yellow;
+    }
+    .barra {
+        background-color: #333;
+        height: 1000%;
+        width: 40%;
+        position: absolute;
+        transition: all .2s linear;
+        left: -400px;
+        z-index: 88888;
+        top: 0px;
+        float: left;
+    
+    }
+    
+    .locall {
+        margin-right:50%
+
+
+    }
+    .lanches {
+        float: left;
+        width: 100%;
+        height: 100px;
+        background-color: rgb(255, 136, 0);
+        margin-top: 75px;
+    }
+    .lanches h1 {
+        margin-left:5px;
+
+    }
+    
+    figure#ultimo-lanche {
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+    figure#segunda-figura {
+        margin-left:120px;
+    }
+
+    iframe {
+        width: 100%;
+
+
+    }
+
+    div#mapa {
+        float: left;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+
+    figure.foto {
+        background-color: white;
+        width: 31%;
+        margin-right: 5px;
+        height: 300px;
+        margin-left: 10px;
+        margin-top: 35px;
+        position: relative;
+        overflow: hidden;
+        float: left;
+
+    }
+
+    figure.foto img {
+        width: 100%;
+        height: 100%;
+        float: left;
+        transition: .2s;
+        padding-left: 6px;
+        padding-bottom: 10px;
+
+
+    }
+
+    figure.foto figcaption {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        padding-left: 0px;
+        color: rgba(255, 255, 255, 0.876);
+        font-family: 'FonteLogo';
+        font-size: 30px;
+        background-color: rgba(0, 0, 0, 0.3);
+        box-sizing: border-box;
+    }
+
+    .cardapio {
+        width: 100%;
+        height:760px;
+        background-color: rgba(255, 72, 0, 0.876);
+        float: left;
+        margin-top: 10px;
+    }
+
+    figure#social {
+        position: relative;
+        margin-left: 300px;
+        margin-top: 330px;
+        width: 10%;
+        height: 63px;
+        float: left;
+        overflow: hidden;
+        border: 2px solid rgba(255, 255, 255, 0);
+        border-radius: 30px;
+    }
+
+    figure#social2 {
+        position: relative;
+        margin-top: 330px;
+        margin-left: 10px;
+        width: 10%;
+        height: 60px;
+        float: left;
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0);
+        border-radius: 20x;
+    }
+
+    figure#social3 {
+        position: relative;
+        margin-top: 330px;
+        margin-left: 10px;
+        width: 10%;
+        height: 60px;
+        float: left;
+        overflow: hidden;
+    }
+
+    .rede {
+        position: absolute;
+        top: 470px;
+        left: 0px;
+        color: white;
+        margin-left: 0px;
+        font-size: 12px;
+        width: 100%;
+        height: 40px;
+        background-color: rgb(255, 136, 0);
+        float: left;
+        padding-left: 5px;
+    }
+
+    .cardapio-ala {
+        width: 100%;
+        height: 800px;
+        background-color: rgba(255, 72, 0, 0.876);
+        float: left;
+        margin-top: 73px;
+        margin-bottom: 0px;
+
+    }
+
+
+
+
+}
+@media(min-width:1024px) {
+    nav#principal ul {
+        display: block;
+        margin: 0px;
+        color: white;
+        font-size: 20px;
+        text-align: left;
+        font-family: 'FonteLogo';
+    
+    }
+    
+    nav#principal li {
+        text-decoration: none;
+        display: inline-block;
+        padding: 20px 0px 0px 20px;
+    
+    
+    }
+    #icone {
+        display:none;
+
+    }
+    .topo figure {
+        display:none;
+    }
+    .topo h1:hover {
+        color:yellow;
+    }
+    .barra {
+        display:none;
+    }
+    
+    .locall {
+        margin-right:50%
+    }
+    .lanches {
+        display:none;
+        float: left;
+        width: 100%;
+        height: 100px;
+        background-color: rgb(255, 136, 0);
+        margin-top: 75px;
+    }
+    .lanches h1 {
+        margin-left:5px;
+
+    }
+    
+    figure#ultimo-lanche {
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+    figure#segunda-figura {
+        margin-left:120px;
+    }
+
+    iframe {
+        width: 100%;
+
+
+    }
+
+    div#mapa {
+        float: left;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+
+    figure.foto {
+        background-color: white;
+        width: 32%;
+        margin-right: 5px;
+        height: 300px;
+        margin-left: 10px;
+        margin-top: 35px;
+        position: relative;
+        overflow: hidden;
+        float: left;
+
+    }
+
+    figure.foto img {
+        width: 100%;
+        height: 100%;
+        float: left;
+        transition: .2s;
+        padding-left: 6px;
+        padding-bottom: 10px;
+
+
+    }
+
+    figure.foto figcaption {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        padding-left: 0px;
+        color: rgba(255, 255, 255, 0.876);
+        font-family: 'FonteLogo';
+        font-size: 30px;
+        background-color: rgba(0, 0, 0, 0.3);
+        box-sizing: border-box;
+    }
+
+    .cardapio {
+        width: 100%;
+        height:760px;
+        background-color: rgba(255, 72, 0, 0.876);
+        float: left;
+        margin-top: 10px;
+    }
+
+    figure#social {
+        position: relative;
+        margin-left:460px;
+        margin-top: 330px;
+        width: 10%;
+        height: 63px;
+        float: left;
+        overflow: hidden;
+        border: 2px solid rgba(255, 255, 255, 0);
+        border-radius: 1000px;
+    }
+
+    figure#social2 {
+        position: relative;
+        margin-top: 330px;
+        margin-left: 10px;
+        width: 10%;
+        height: 60px;
+        float: left;
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0);
+        border-radius: 20x;
+    }
+
+    figure#social3 {
+        position: relative;
+        margin-top: 330px;
+        margin-left: 10px;
+        width: 10%;
+        height: 60px;
+        float: left;
+        overflow: hidden;
+    }
+
+    .rede {
+        position: absolute;
+        top: 470px;
+        left: 0px;
+        color: white;
+        margin-left: 0px;
+        font-size: 12px;
+        width: 100%;
+        height: 40px;
+        background-color: rgb(255, 136, 0);
+        float: left;
+        padding-left: 5px;
+    }
+
+    .cardapio-ala {
+        width: 100%;
+        height: 800px;
+        background-color: rgba(255, 72, 0, 0.876);
+        float: left;
+        margin-top: 73px;
+        margin-bottom: 0px;
+
+    }
+
+
+
+
+}
