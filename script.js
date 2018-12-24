@@ -1,4 +1,5 @@
 function fotoZoom(tipo) {
+
     if (tipo === 1) {
         var zom = document.getElementById('picanha');
         zom.style.width = '110%';
@@ -73,6 +74,9 @@ function fotoNormal(tipo) {
         normal.style.height = '100%';
 
     }
-
+}
+function navShow() {
+    var ms = document.getElementsByClassName('.nav-link');
+    ms.style.border = '2px solid black';
 
 }
