@@ -259,7 +259,7 @@ figure.foto figcaption {
 }
 
 .barra {
-    background-color: #333;
+    background-color: rgba(190, 86, 17, 0.582);
     height: 1000%;
     width: 50%;
     position: absolute;
@@ -283,20 +283,20 @@ nav#mobile a {
 }
 
 .link {
-    background-color: #494950;
+    background-color: rgba(255, 197, 7, 0.582);
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
     transition: all .1s linear;
-    color: #f4f4f9;
-    border-bottom: 3px solid #222;
+    color: #5d5858;
+    border-bottom: 3px solid rgba(190, 86, 17, 0.582);
     opacity: 0;
     margin-top: 200px;
 
 }
 
 .link:hover {
-    background-color: #050542;
+    background-color: #ffffff;
 
 }
 
