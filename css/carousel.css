@@ -6,28 +6,34 @@ body {
   padding-bottom: 40px;
   color: #5a5a5a;
 }
+
 ol.carousel-indicators {
-  position:absolute;
-  top:456px;
+  position: absolute;
+  top: 456px;
 }
+
 a.left.carousel-control {
   transition: .3s;
 }
+
 a.right.carousel-control {
   transition: .3s;
 }
+
 a.btn.btn-lg.btn-primary {
   transition: .3s;
 }
+
 #myCarousel {
-  padding-top:0px;
-  margin-top:60px;
-  margin-bottom:0px;
+  padding-top: 0px;
+  margin-top: 60px;
+  margin-bottom: 0px;
 }
+
 .carousel-inner {
-  height:500px;
-  margin-bottom:0px;
-  padding-bottom:0px;
+  height: 500px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 
@@ -45,14 +51,16 @@ a.btn.btn-lg.btn-primary {
 }
 
 /* Flip around the padding for proper display in narrow viewports */
-.navbar-wrapper > .container {
+.navbar-wrapper>.container {
   padding-right: 0;
   padding-left: 0;
 }
+
 .navbar-wrapper .navbar {
   padding-right: 15px;
   padding-left: 15px;
 }
+
 .navbar-wrapper .navbar .container {
   width: auto;
 }
@@ -66,6 +74,7 @@ a.btn.btn-lg.btn-primary {
   height: 500px;
   margin-bottom: 60px;
 }
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
@@ -76,7 +85,8 @@ a.btn.btn-lg.btn-primary {
   height: 500px;
   background-color: #777;
 }
-.carousel-inner > .item > img {
+
+.carousel-inner>.item>img {
   position: absolute;
   top: 0;
   left: 0;
@@ -93,9 +103,11 @@ a.btn.btn-lg.btn-primary {
   margin-bottom: 20px;
   text-align: center;
 }
+
 .marketing h2 {
   font-weight: normal;
 }
+
 .marketing .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
@@ -106,7 +118,8 @@ a.btn.btn-lg.btn-primary {
 ------------------------- */
 
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 80px 0;
+  /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -121,14 +134,17 @@ a.btn.btn-lg.btn-primary {
 -------------------------------------------------- */
 
 @media (min-width: 768px) {
+
   /* Navbar positioning foo */
   .navbar-wrapper {
     margin-top: 20px;
   }
+
   .navbar-wrapper .container {
     padding-right: 15px;
     padding-left: 15px;
   }
+
   .navbar-wrapper .navbar {
     padding-right: 0;
     padding-left: 0;

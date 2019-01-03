@@ -15,17 +15,19 @@ body {
 
 nav#principal img {
     width: 100%;
-    height:100%;
+    height: 100%;
     /*padding:0px 20px 0px 20px;*/
-    padding-bottom:0px;
+    padding-bottom: 0px;
 }
+
 .teste {
-    float:right;
+    float: right;
     color: white;
     width: 70%;
     height: 100%;
     margin: 0px 35px 0px 0px;
 }
+
 div#mapa {
     float: left;
     width: 100%;
@@ -409,6 +411,8 @@ figure#rodaimg figcaption {
     float: left;
     width: 100%;
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .rede {
@@ -417,16 +421,20 @@ figure#rodaimg figcaption {
     left: 0px;
     color: white;
     margin-left: 0px;
+    margin-bottom: 0px;
     font-size: 12px;
     width: 100%;
     height: 72px;
     background-color: rgb(255, 136, 0);
     float: left;
     padding-left: 5px;
+    padding-bottom: 0px;
 }
 
 .rede p {
     text-align: center;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -550,12 +558,13 @@ figure#ultimo-lanche {
 
 @media (min-width:588px) {
     .teste {
-        float:right;
+        float: right;
         color: white;
         width: 70%;
         height: 100%;
         margin: 0px 50px 0px 0px;
     }
+
     .lanches {
         float: left;
         width: 100%;
@@ -673,6 +682,7 @@ figure#ultimo-lanche {
         font-size: 12px;
         width: 100%;
         height: 40px;
+        margin-bottom: 0px;
         background-color: rgb(255, 136, 0);
         float: left;
         padding-left: 5px;
@@ -696,12 +706,13 @@ figure#ultimo-lanche {
 
 @media(min-width:652px) {
     .teste {
-        float:right;
+        float: right;
         color: white;
         width: 70%;
         height: 100%;
         margin: 0px 50px 0px 0px;
     }
+
     .locall {
         margin-right: 50%
     }
@@ -852,12 +863,13 @@ figure#ultimo-lanche {
 
 @media(min-width:800px) {
     .teste {
-        float:right;
+        float: right;
         color: white;
         width: 70%;
         height: 100%;
         margin: 0px 80px 0px 0px;
     }
+
     .topo figure {
         display: none;
     }
@@ -1039,7 +1051,7 @@ figure#ultimo-lanche {
         margin: 0px 0px 0px 0px;
         padding-bottom: 0px;
         height: 100%;
-        width:100%;
+        width: 100%;
     }
 
     nav#principal {
@@ -1106,8 +1118,9 @@ figure#ultimo-lanche {
     .locall {
         margin-right: 89%
     }
+
     .local {
-        margin-top:90px;
+        margin-top: 90px;
 
     }
 
