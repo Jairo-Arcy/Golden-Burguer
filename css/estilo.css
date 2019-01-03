@@ -723,6 +723,7 @@ figure#ultimo-lanche {
         height: 100px;
         background-color: rgb(255, 136, 0);
         margin-top: 75px;
+        padding:0;
     }
 
     .lanches h1 {
@@ -901,6 +902,7 @@ figure#ultimo-lanche {
         height: 100px;
         background-color: rgb(255, 136, 0);
         margin-top: 75px;
+        padding:0;
     }
 
     .lanches h1 {
