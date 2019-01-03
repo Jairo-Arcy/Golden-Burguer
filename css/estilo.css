@@ -4,23 +4,44 @@
     font-family: 'FonteLogo';
     src: url("../fonts/bubblegum-sans-regular.otf");
 }
- iframe {
-    width:100%;
- }
+
+iframe {
+    width: 100%;
+}
 
 body {
     margin: 0px;
 }
 
+nav#principal img {
+    width: 100%;
+    height:100%;
+    /*padding:0px 20px 0px 20px;*/
+    padding-bottom:0px;
+}
+.teste {
+    float:right;
+    color: white;
+    width: 70%;
+    height: 100%;
+    margin: 0px 35px 0px 0px;
+}
 div#mapa {
     float: left;
     width: 100%;
     height: 100%;
-
-
-
 }
 
+a.nav-desktop {
+    color: white;
+    border: 2px solid rgba(255, 166, 0, 0);
+}
+
+a.nav-desktop:hover {
+    color: yellow;
+    border: 2px solid orange;
+    text-decoration: none;
+}
 
 nav#principal {
     position: absolute;
@@ -67,7 +88,7 @@ nav#principal li {
     float: left;
     color: yellow;
     text-decoration: none;
-    margin: 0;
+    margin: 0px 200px 0px 0px;
     font-size: 10pt;
     padding: 0px 10px 10px 10px;
 }
@@ -170,8 +191,8 @@ nav#principal li {
 .topo figure {
 
     padding-left: 30px;
-    padding-top:10px;
-    margin-left:10px;
+    padding-top: 10px;
+    margin-left: 10px;
     float: left;
     width: 15%;
     height: 55px;
@@ -259,7 +280,7 @@ figure.foto figcaption {
 }
 
 .barra {
-    background-color: rgba(190, 86, 17, 0.582);
+    background-color: rgba(190, 86, 17, 0.787);
     height: 1000%;
     width: 50%;
     position: absolute;
@@ -283,12 +304,12 @@ nav#mobile a {
 }
 
 .link {
-    background-color: rgba(255, 197, 7, 0.582);
+    background-color: rgba(255, 166, 0, 0.767);
     padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12pt;
+    font-family: 'FonteLogo';
+    font-size: 14pt;
     transition: all .1s linear;
-    color: #5d5858;
+    color: #ffffff;
     border-bottom: 3px solid rgba(190, 86, 17, 0.582);
     opacity: 0;
     margin-top: 200px;
@@ -296,7 +317,7 @@ nav#mobile a {
 }
 
 .link:hover {
-    background-color: #ffffff;
+    background-color: yellow;
 
 }
 
@@ -398,7 +419,7 @@ figure#rodaimg figcaption {
     margin-left: 0px;
     font-size: 12px;
     width: 100%;
-    height: 50px;
+    height: 72px;
     background-color: rgb(255, 136, 0);
     float: left;
     padding-left: 5px;
@@ -508,9 +529,9 @@ figure#social3 img {
 .lanches {
     float: left;
     width: 100%;
-    height: 130px;
+    height: 200px;
     background-color: rgb(255, 136, 0);
-    margin-top: 75px;
+    padding-top: 70px;
 }
 
 .lanches h1 {
@@ -518,6 +539,7 @@ figure#social3 img {
     font-family: 'FonteLogo';
     margin-left: 20px;
 }
+
 figure#ultimo-lanche {
     margin-left: 10px;
     margin-bottom: 20px;
@@ -527,6 +549,13 @@ figure#ultimo-lanche {
 }
 
 @media (min-width:588px) {
+    .teste {
+        float:right;
+        color: white;
+        width: 70%;
+        height: 100%;
+        margin: 0px 50px 0px 0px;
+    }
     .lanches {
         float: left;
         width: 100%;
@@ -534,7 +563,7 @@ figure#ultimo-lanche {
         background-color: rgb(255, 136, 0);
         margin-top: 75px;
     }
-    
+
     figure#ultimo-lanche {
         margin-left: 170px;
         margin-bottom: 20px;
@@ -544,7 +573,7 @@ figure#ultimo-lanche {
     }
 
     iframe {
-      width: 100%;
+        width: 100%;
 
 
     }
@@ -595,7 +624,7 @@ figure#ultimo-lanche {
 
     .cardapio {
         width: 100%;
-        height:1100px;
+        height: 1100px;
         background-color: rgba(255, 72, 0, 0.876);
         float: left;
         margin-top: 10px;
@@ -666,11 +695,17 @@ figure#ultimo-lanche {
 
 
 @media(min-width:652px) {
-    .locall {
-        margin-right:50%
-
-
+    .teste {
+        float:right;
+        color: white;
+        width: 70%;
+        height: 100%;
+        margin: 0px 50px 0px 0px;
     }
+    .locall {
+        margin-right: 50%
+    }
+
     .lanches {
         float: left;
         width: 100%;
@@ -678,17 +713,19 @@ figure#ultimo-lanche {
         background-color: rgb(255, 136, 0);
         margin-top: 75px;
     }
+
     .lanches h1 {
-        margin-left:90px;
+        margin-left: 90px;
 
     }
-    
+
     figure#ultimo-lanche {
         margin-left: 10px;
         margin-bottom: 20px;
     }
+
     figure#segunda-figura {
-        margin-left:150px;
+        margin-left: 150px;
     }
 
     iframe {
@@ -744,7 +781,7 @@ figure#ultimo-lanche {
 
     .cardapio {
         width: 100%;
-        height:760px;
+        height: 760px;
         background-color: rgba(255, 72, 0, 0.876);
         float: left;
         margin-top: 10px;
@@ -812,13 +849,23 @@ figure#ultimo-lanche {
 
 
 }
+
 @media(min-width:800px) {
+    .teste {
+        float:right;
+        color: white;
+        width: 70%;
+        height: 100%;
+        margin: 0px 80px 0px 0px;
+    }
     .topo figure {
-        display:none;
+        display: none;
     }
+
     .topo h1:hover {
-        color:yellow;
+        color: yellow;
     }
+
     .barra {
         background-color: #333;
         height: 1000%;
@@ -829,14 +876,13 @@ figure#ultimo-lanche {
         z-index: 88888;
         top: 0px;
         float: left;
-    
+
     }
-    
+
     .locall {
-        margin-right:50%
-
-
+        margin-right: 50%
     }
+
     .lanches {
         float: left;
         width: 100%;
@@ -844,17 +890,19 @@ figure#ultimo-lanche {
         background-color: rgb(255, 136, 0);
         margin-top: 75px;
     }
+
     .lanches h1 {
-        margin-left:5px;
+        margin-left: 5px;
 
     }
-    
+
     figure#ultimo-lanche {
         margin-left: 10px;
         margin-bottom: 20px;
     }
+
     figure#segunda-figura {
-        margin-left:120px;
+        margin-left: 120px;
     }
 
     iframe {
@@ -909,7 +957,7 @@ figure#ultimo-lanche {
 
     .cardapio {
         width: 100%;
-        height:760px;
+        height: 760px;
         background-color: rgba(255, 72, 0, 0.876);
         float: left;
         margin-top: 10px;
@@ -977,12 +1025,30 @@ figure#ultimo-lanche {
 
 
 }
+
 @media(min-width:1024px) {
+    .teste {
+        float: left;
+        color: white;
+        width: 25%;
+        height: 100%;
+        margin: 0px 0px 0px 0px;
+    }
+
+    nav#principal img {
+        margin: 0px 0px 0px 0px;
+        padding-bottom: 0px;
+        height: 100%;
+        width:100%;
+    }
+
     nav#principal {
         overflow: hidden;
+        height: 100px;
 
 
     }
+
     nav#principal ul {
         display: block;
         margin: 0px;
@@ -990,60 +1056,82 @@ figure#ultimo-lanche {
         font-size: 25px;
         text-align: left;
         font-family: 'FonteLogo';
-        text-align:center;
-    
+        text-align: center;
+        margin-top: 15px;
+        height: 20px;
+        padding: 0px;
+        width: 100%;
+
     }
-    
+
     nav#principal li {
-        height:50px;
+        height: 50px;
         text-decoration: none;
         display: inline-block;
         padding-top: 20px;
-        padding-left:0px;
-        margin:0px 0px 0px 60px;
+        padding-left: 0px;
+        margin: 0px 0px 0px 50px;
         transition: all .4s;
         border-bottom: 3px solid orange;
     }
-    nav#principal li:hover {
-        border-bottom: 3px solid rgb(255, 136, 0) ;
-        color:yellow;
-    }
-    #icone {
-        display:none;
+
+    nav#principal li.first {
+        margin: 0px;
+
 
     }
+
+    nav#principal li:hover {
+        border-bottom: 3px solid rgb(255, 136, 0);
+        color: yellow;
+    }
+
+    #icone {
+        display: none;
+
+    }
+
     .topo figure {
-        display:none;
+        display: none;
     }
+
     .topo h1:hover {
-        color:yellow;
+        color: yellow;
     }
+
     .barra {
-        display:none;
+        display: none;
     }
-    
+
     .locall {
-        margin-right:90%
+        margin-right: 89%
     }
+    .local {
+        margin-top:90px;
+
+    }
+
     .lanches {
-        display:block;
+        display: block;
         float: left;
         width: 100%;
         height: 100px;
         background-color: rgb(255, 136, 0);
-        margin-top: 75px;
+        margin-top: 85px;
     }
+
     .lanches h1 {
-        margin-left:10px;
+        margin-left: 10px;
 
     }
-    
+
     figure#ultimo-lanche {
         margin-left: 10px;
         margin-bottom: 20px;
     }
+
     figure#segunda-figura {
-        margin-left:120px;
+        margin-left: 120px;
     }
 
     iframe {
@@ -1098,7 +1186,7 @@ figure#ultimo-lanche {
 
     .cardapio {
         width: 100%;
-        height:760px;
+        height: 760px;
         background-color: rgba(255, 72, 0, 0.876);
         float: left;
         margin-top: 10px;
@@ -1106,14 +1194,14 @@ figure#ultimo-lanche {
 
     figure#social {
         position: relative;
-        margin-left:460px;
+        margin-left: 460px;
         margin-top: 330px;
         width: 10%;
         height: 63px;
         float: left;
         overflow: hidden;
         border: 2px solid rgba(255, 255, 255, 0);
-        border-radius:50px;
+        border-radius: 50px;
     }
 
     figure#social2 {
@@ -1157,7 +1245,7 @@ figure#ultimo-lanche {
         height: 800px;
         background-color: rgba(255, 72, 0, 0.876);
         float: left;
-        margin-top: 73px;
+        margin-top: 90px;
         margin-bottom: 0px;
 
     }
